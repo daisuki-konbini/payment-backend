@@ -1,1 +1,3 @@
 # payment-backend
+
+gcloud functions deploy FUNCTION_NAME --set-env-vars StripeKey=sk_test_51GqunzFvpS87CzIat15JvAFOSm22hW1E4wMpNmNP1a97oLcafLvlIbFCKUhSoaifbxZgrb8aZhttUbJVOy1ipqcq00shavejPx,StripePrice=price_1GrhZaFvpS87CzIa1Q3Nz3DA,SuccessURL=http://7ef3d3b6b415.ngrok.io/shipping,CancelURL=http://7ef3d3b6b415.ngrok.io/shipping
